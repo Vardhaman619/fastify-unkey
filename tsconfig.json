@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "typeRoots": ["./node_modules/@types", "./src/types"], // Add the path to your custom types
+    "types": ["node"] // Include any specific types you want
+  },
+  "include": ["src/**/*", "src/types.d.ts"], // Ensure your types are included in the compilation
+  "exclude": ["node_modules"]
+}

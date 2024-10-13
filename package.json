@@ -1,0 +1,28 @@
+{
+  "name": "fastify-unkey-template",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "bun --watch ./src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.66",
+    "@libsql/client": "^0.14.0",
+    "@t3-oss/env-core": "^0.11.1",
+    "@unkey/api": "^0.26.2",
+    "ai": "^3.4.9",
+    "drizzle-orm": "^0.34.1",
+    "fastify": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "drizzle-kit": "^0.25.0"
+  }
+}
